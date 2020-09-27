@@ -47,7 +47,7 @@ class ProfileTableViewController: UITableViewController {
         
         tableView.deselectRow(at: indexPath, animated: true)
         if indexPath.section == 0 && indexPath.row == 0 {
-            performSegue(withIdentifier: SegueType.profileToEditProfileSeg.rawValue, sender: self)
+//            performSegue(withIdentifier: SegueType.profileToEditProfileSeg.rawValue, sender: self)
         }
     }
 
